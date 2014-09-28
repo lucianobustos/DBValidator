@@ -25,7 +25,7 @@
 @interface DBValidationRule : NSObject
 
 /** The object we are validating */
-@property (nonatomic, weak) id object;
+@property (nonatomic, assign) id object;
 /** The keyPath of the value we are validating on the object */
 @property (nonatomic, copy) NSString *keyPath;
 /** The failure message when validation fails */

@@ -10,11 +10,11 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *textField1;
+@property (assign, nonatomic) IBOutlet UITextField *textField1;
 - (IBAction)validatePressed:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextField *textField2;
-@property (weak, nonatomic) IBOutlet UITextField *textFieldEmail;
-@property (weak, nonatomic) IBOutlet UITextField *textFieldLength;
-@property (weak, nonatomic) IBOutlet UITextField *textFieldRegex;
+@property (assign, nonatomic) IBOutlet UITextField *textField2;
+@property (assign, nonatomic) IBOutlet UITextField *textFieldEmail;
+@property (assign, nonatomic) IBOutlet UITextField *textFieldLength;
+@property (assign, nonatomic) IBOutlet UITextField *textFieldRegex;
 
 @end

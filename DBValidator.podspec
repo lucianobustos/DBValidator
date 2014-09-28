@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DBValidator"
   s.version      = "0.0.1"
-  s.summary      = "A short description of DBValidator."
+  s.summary      = "simple objective-c validation library"
 
   s.description  = <<-DESC
                    A longer description of DBValidator in Markdown format.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT license for DBValidator"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "luciano bustos" => "luchyx@gmail.com" }
   # Or just: s.author    = "luciano bustos"
   # s.authors            = { "luciano bustos" => "luchyx@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/luciano bustos"
+  s.social_media_url   = "http://twitter.com/luchyx"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms

@@ -23,7 +23,7 @@
 
 @interface DBValidationEqualityRule ()
 
-@property (nonatomic, weak) id object2;
+@property (nonatomic) id object2;
 
 @end
 
